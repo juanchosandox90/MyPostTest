@@ -1,0 +1,13 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation Libraries.kotlin_stdlib
+    implementation Libraries.rxkotlin
+
+    implementation Libraries.inject
+
+    testImplementation TestLibraries.junit
+    testImplementation TestLibraries.assertj_core
+    testImplementation TestLibraries.mockito_kotlin
+}
