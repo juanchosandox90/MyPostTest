@@ -42,6 +42,7 @@ object Versions {
     val junit = "4.12"
     val assertj_core = "3.9.1"
     val mockito_kotlin = "1.5.0"
+    val segmented_version = "1.0.6"
 }
 
 object Libraries {
@@ -73,6 +74,8 @@ object Libraries {
 
     val lifecycle_extensions = "android.arch.lifecycle:extensions:${Versions.lifecycle}"
     val lifecycle_compiler = "android.arch.lifecycle:compiler:${Versions.lifecycle}"
+
+    val segmented_control = "info.hoang8f:android-segmented:${Versions.segmented_version}"
 }
 
 object SupportLibraries {

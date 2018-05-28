@@ -5,7 +5,8 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="horizontal"
-    android:padding="@dimen/spacing_standard">
+    android:padding="@dimen/spacing_standard"
+    android:background="@color/md_grey_800">
 
     <ImageButton
         android:id="@+id/userAvatar"
@@ -27,7 +28,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="1"
-            android:textColor="@color/colorUsername"
+            android:textColor="@color/holo_red_dark"
             android:textSize="@dimen/text_small"
             tools:text="Username" />
 
@@ -37,7 +38,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="1"
-            android:textColor="@color/colorName"
+            android:textColor="@color/md_white_1000"
             tools:text="Name" />
 
     </LinearLayout>

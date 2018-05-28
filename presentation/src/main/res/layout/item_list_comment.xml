@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/md_grey_800">
 
     <include layout="@layout/include_user_info_small" />
 
@@ -11,6 +12,7 @@
         android:id="@+id/commentBody"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/md_white_1000"
         android:layout_margin="@dimen/spacing_standard"
         tools:text="This is a comment body. Its length will determine the length of the post. To infinity and beyond!" />
 
