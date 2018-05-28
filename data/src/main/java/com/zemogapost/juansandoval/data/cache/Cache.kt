@@ -5,7 +5,10 @@ import io.reactivex.Single
 import io.reactivex.schedulers.Schedulers.io
 import javax.inject.Inject
 
-
+/**
+ * Paper is a fast NoSQL-like storage for Java/Kotlin objects on Android with automatic schema migration support.
+ * See: https://github.com/pakoito/RxPaper2
+ */
 class Cache<T> @Inject constructor() {
 
     fun load(key: String): Single<T> = RxPaperBook.with(io()).read(key)
